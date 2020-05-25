@@ -34,6 +34,14 @@ for i in tup6:
 #prints the elements in tuple
 
 
+#No Enclosing Delimiters
+#any set of comma-seperated values default to tuples
+
+unknown = 'abc', -4.23e93, 18+ 6.6j,'xyz'
+print(type(unknown)) # prints type : tuple
+print(unknown)
+
+
 #garbage colection
 
 del(tup1)
