@@ -10,4 +10,4 @@ The following files contain the implementation of dictionary
   
   2. Built_in_functions : The built-in functions provided by python for dictionaries
   
-  3. Methods(1&2) : The various maethods to unlcok the potential of doctionary data structure.
+  3. Methods(1&2) : The various methods to unlock the potential of dictionary data structure.
