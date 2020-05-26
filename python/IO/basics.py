@@ -37,3 +37,11 @@ print("Name of the file is:", fo.name)
 # fo.mode
 # returns the mode with which the file was accessed.
 print("Opening Mode: ", fo.mode)
+
+
+# Closing a file
+# fileObject.close();
+print("Closing the file now..")
+fo.close()      # lcoses the file object
+print("Closed or not:", fo.closed)
+
