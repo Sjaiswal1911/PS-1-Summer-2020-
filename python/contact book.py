@@ -100,6 +100,13 @@ class ContactBook(object):
         for name in self.contact_names:
             print(name)
 
+    def delete_Contact(self, target):
+        for con in self.contacts:
+            if con.name == target:
+                del(con)
+        for name in self.contact_names:              
+            if name == target:
+                del(name)
 
 class Contact(object):
 
@@ -136,5 +143,20 @@ while True:
         except:
             pass    
         continue
+    elif (choice == 3):
+        print("The contacts stored are:")
+        cb.print_Names()
+        target = input("Enter name to be deleted:")
+        try:
+            cb.delete_Contact(target)
+        except:
+            pass
+        continue   
+    elif (choice == 4):
+        print("The contacts stored are:")
+        cb.print_Names()
+    elif (choice == 5):
+        print("Enter the letter")
+                             
     elif (choice == 9):
         break
