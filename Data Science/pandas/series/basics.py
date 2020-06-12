@@ -20,4 +20,4 @@ print(numbers.loc['One'])
 
 # Explicit index type
 s = pd.Series(['Tiger', 'Bear', 'Moose'], index=['India', 'America', 'Canada'])
-s
+print(s)
